@@ -1,0 +1,17 @@
+D:\Desktop\chat\opencode\project\livestock-pigbench-inference\.venv\lib\site-packages\torch\functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ..\aten\src\ATen\native\TensorShape.cpp:3484.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+[batch] 数据量: 5 张图片 | 目录: D:\Desktop\chat\opencode\project\livestock-pigbench-inference\inputs
+[PigDetector] config     : D:\Desktop\chat\opencode\project\livestock-pigbench-inference\third_party\PigBench\detection\configs\yolov8\yolov8_s.py
+[PigDetector] checkpoint : D:\Desktop\chat\opencode\project\livestock-pigbench-inference\third_party\PigBench\detection\data\pretrained_weights\yolov8_pigs\yolov8_s.pth
+[PigDetector] device     : cpu
+Loads checkpoint by local backend from path: D:\Desktop\chat\opencode\project\livestock-pigbench-inference\third_party\PigBench\detection\data\pretrained_weights\yolov8_pigs\yolov8_s.pth
+[PigDetector] 权重加载耗时: 0.96 s
+[batch] [1/5] pig_1.png: 检出 12 头, 316.3 ms -> pig_1_vis.jpg, pig_1.json
+[batch] [2/5] pig_2.png: 检出 8 头, 304.9 ms -> pig_2_vis.jpg, pig_2.json
+[batch] [3/5] pig_3.png: 检出 9 头, 294.6 ms -> pig_3_vis.jpg, pig_3.json
+[batch] [4/5] pig_4.png: 检出 7 头, 287.0 ms -> pig_4_vis.jpg, pig_4.json
+[batch] [5/5] pig_5.png: 检出 4 头, 299.3 ms -> pig_5_vis.jpg, pig_5.json
+[batch] 权重: D:\Desktop\chat\opencode\project\livestock-pigbench-inference\third_party\PigBench\detection\data\pretrained_weights\yolov8_pigs\yolov8_s.pth
+[batch] 设备: cpu | conf: 0.4
+[batch] 平均单张: 300.44 ms | 最慢: 316.26 ms | 总耗时: 1.6 s
+[batch] CSV: D:\Desktop\chat\opencode\project\livestock-pigbench-inference\results\batch_results.csv

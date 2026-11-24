@@ -1,0 +1,121 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261124152559
+Username: LAPTOP-ULNVRD2K\seeed
+RunAs User: LAPTOP-ULNVRD2K\seeed
+Configuration Name: 
+Machine: LAPTOP-ULNVRD2K (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts\setup_env.ps1
+Process ID: 6124
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== [setup] project root: D:\Desktop\chat\opencode\project\livestock-pigbench-inference
+=== [setup] python launcher: Python 3.10.11
+=== [setup] creating venv at D:\Desktop\chat\opencode\project\livestock-pigbench-inference\.venv
+
+=== [setup] upgrading pip/setuptools/wheel
+
+PS>TerminatingError(): "pip failed (exit 1): pip install -U pip setuptools wheel"
+**********************
+Windows PowerShell transcript end
+End time: 20261124152719
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20261124152832
+Username: LAPTOP-ULNVRD2K\seeed
+RunAs User: LAPTOP-ULNVRD2K\seeed
+Configuration Name: 
+Machine: LAPTOP-ULNVRD2K (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts\setup_env.ps1
+Process ID: 34132
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== [setup] project root: D:\Desktop\chat\opencode\project\livestock-pigbench-inference
+=== [setup] python launcher: Python 3.10.11
+=== [setup] venv already exists
+=== [setup] upgrading pip (best effort; 澶辫触涓嶉樆鏂?
+
+=== [setup] installing CPU torch 2.0.0 / torchvision 0.15.0
+
+PS>TerminatingError(): "pip failed (exit 1): pip install --index-url https://download.pytorch.org/whl/cpu torch==2.0.0+cpu torchvision==0.15.0+cpu"
+**********************
+Windows PowerShell transcript end
+End time: 20261124153702
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20261124153807
+Username: LAPTOP-ULNVRD2K\seeed
+RunAs User: LAPTOP-ULNVRD2K\seeed
+Configuration Name: 
+Machine: LAPTOP-ULNVRD2K (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts\setup_env.ps1
+Process ID: 37960
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== [setup] project root: D:\Desktop\chat\opencode\project\livestock-pigbench-inference
+=== [setup] python launcher: Python 3.10.11
+=== [setup] venv already exists
+=== [setup] upgrading pip (best effort; 澶辫触涓嶉樆鏂?
+**********************
+Windows PowerShell transcript start
+Start time: 20261124154036
+Username: LAPTOP-ULNVRD2K\seeed
+RunAs User: LAPTOP-ULNVRD2K\seeed
+Configuration Name: 
+Machine: LAPTOP-ULNVRD2K (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts\setup_env.ps1
+Process ID: 11900
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== [setup] project root: D:\Desktop\chat\opencode\project\livestock-pigbench-inference
+=== [setup] python launcher: Python 3.10.11
+=== [setup] venv already exists
+=== [setup] upgrading pip (best effort; 失败不阻断)
+
+=== [setup] installing CPU torch 2.0.0 / torchvision 0.15.0
+
+=== [setup] installing numpy / mmengine
+
+=== [setup] installing mmcv 2.0.0 (Windows CPU wheel)
+
+=== [setup] installing mmdet 3.3.0 / mmyolo 0.6.0
+
+=== [setup] installing runtime helpers
+
+=== [setup] versions
+
+=== [setup] done
+**********************
+Windows PowerShell transcript end
+End time: 20261124154912
+**********************

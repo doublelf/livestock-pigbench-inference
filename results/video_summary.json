@@ -1,0 +1,31 @@
+{
+  "video": "D:\\Desktop\\chat\\opencode\\project\\livestock-pigbench-inference\\inputs\\pigtrack0001.mp4",
+  "output_video": "D:\\Desktop\\chat\\opencode\\project\\livestock-pigbench-inference\\outputs\\pigtrack0001_det.mp4",
+  "model": "yolov8_s",
+  "checkpoint": "D:\\Desktop\\chat\\opencode\\project\\livestock-pigbench-inference\\third_party\\PigBench\\detection\\data\\pretrained_weights\\yolov8_pigs\\yolov8_s.pth",
+  "device": "cpu",
+  "conf_threshold": 0.4,
+  "fps": 9.999,
+  "width": 1280,
+  "height": 800,
+  "total_frames": 149,
+  "reported_frames_metadata": 149,
+  "detected_frames": 149,
+  "stride": 1,
+  "avg_count": 12.953,
+  "max_count": 15,
+  "min_count": 11,
+  "total_elapsed_sec": 50.614,
+  "avg_ms_per_frame": 339.69,
+  "avg_inference_ms": 331.76,
+  "generated_at": "2026-11-24T16:58:57+08:00",
+  "output_check": {
+    "opened": true,
+    "frames": 149,
+    "fps": 10.0,
+    "width": 1280,
+    "height": 800,
+    "first_frame_readable": true
+  },
+  "note": "逐帧独立检测结果，帧间计数会有小幅跳动；没有跨帧 ID，不是多目标跟踪。"
+}

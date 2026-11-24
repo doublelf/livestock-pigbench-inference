@@ -1,0 +1,75 @@
+{
+  "image": "D:\\Desktop\\chat\\opencode\\project\\livestock-pigbench-inference\\inputs\\pig_4.png",
+  "model": "yolov8_s",
+  "checkpoint": "D:\\Desktop\\chat\\opencode\\project\\livestock-pigbench-inference\\third_party\\PigBench\\detection\\data\\pretrained_weights\\yolov8_pigs\\yolov8_s.pth",
+  "device": "cpu",
+  "conf_threshold": 0.4,
+  "count": 7,
+  "elapsed_ms": 367.9,
+  "detections": [
+    {
+      "bbox": [
+        76.66,
+        51.86,
+        192.83,
+        331.78
+      ],
+      "score": 0.918
+    },
+    {
+      "bbox": [
+        340.33,
+        80.6,
+        586.46,
+        384.55
+      ],
+      "score": 0.8964
+    },
+    {
+      "bbox": [
+        177.76,
+        108.63,
+        366.92,
+        368.99
+      ],
+      "score": 0.7696
+    },
+    {
+      "bbox": [
+        1.43,
+        58.15,
+        97.41,
+        300.92
+      ],
+      "score": 0.5631
+    },
+    {
+      "bbox": [
+        543.74,
+        77.57,
+        611.97,
+        357.58
+      ],
+      "score": 0.433
+    },
+    {
+      "bbox": [
+        174.89,
+        0.49,
+        292.61,
+        82.59
+      ],
+      "score": 0.4319
+    },
+    {
+      "bbox": [
+        548.47,
+        160.09,
+        611.94,
+        359.13
+      ],
+      "score": 0.4215
+    }
+  ],
+  "visualization": "D:\\Desktop\\chat\\opencode\\project\\livestock-pigbench-inference\\outputs\\pig_4_vis.jpg"
+}

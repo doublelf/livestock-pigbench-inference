@@ -1,0 +1,120 @@
+{
+  "image": "D:\\Desktop\\chat\\opencode\\project\\livestock-pigbench-inference\\inputs\\pig_1.png",
+  "model": "yolov8_s",
+  "checkpoint": "D:\\Desktop\\chat\\opencode\\project\\livestock-pigbench-inference\\third_party\\PigBench\\detection\\data\\pretrained_weights\\yolov8_pigs\\yolov8_s.pth",
+  "device": "cpu",
+  "conf_threshold": 0.4,
+  "count": 12,
+  "elapsed_ms": 346.0,
+  "detections": [
+    {
+      "bbox": [
+        37.71,
+        129.07,
+        275.99,
+        290.28
+      ],
+      "score": 0.9344
+    },
+    {
+      "bbox": [
+        297.21,
+        81.62,
+        427.2,
+        202.01
+      ],
+      "score": 0.925
+    },
+    {
+      "bbox": [
+        101.06,
+        177.45,
+        334.84,
+        400.22
+      ],
+      "score": 0.918
+    },
+    {
+      "bbox": [
+        465.69,
+        34.83,
+        610.39,
+        176.67
+      ],
+      "score": 0.8916
+    },
+    {
+      "bbox": [
+        165.83,
+        190.52,
+        441.81,
+        433.07
+      ],
+      "score": 0.8833
+    },
+    {
+      "bbox": [
+        434.89,
+        53.07,
+        533.62,
+        168.64
+      ],
+      "score": 0.8733
+    },
+    {
+      "bbox": [
+        576.95,
+        174.46,
+        699.84,
+        292.73
+      ],
+      "score": 0.8687
+    },
+    {
+      "bbox": [
+        370.92,
+        257.28,
+        669.26,
+        517.03
+      ],
+      "score": 0.7795
+    },
+    {
+      "bbox": [
+        298.57,
+        228.05,
+        524.69,
+        469.53
+      ],
+      "score": 0.6004
+    },
+    {
+      "bbox": [
+        681.55,
+        114.57,
+        700.0,
+        288.85
+      ],
+      "score": 0.4379
+    },
+    {
+      "bbox": [
+        429.27,
+        165.68,
+        606.72,
+        333.51
+      ],
+      "score": 0.4088
+    },
+    {
+      "bbox": [
+        450.32,
+        166.03,
+        609.08,
+        436.51
+      ],
+      "score": 0.4074
+    }
+  ],
+  "visualization": "D:\\Desktop\\chat\\opencode\\project\\livestock-pigbench-inference\\outputs\\pig_1_vis.jpg"
+}

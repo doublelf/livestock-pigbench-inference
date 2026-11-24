@@ -1,0 +1,139 @@
+{
+  "image": "D:\\Desktop\\chat\\opencode\\project\\livestock-pigbench-inference\\results\\video_frames\\frame_0000_src.png",
+  "model": "yolov8_s",
+  "checkpoint": "D:\\Desktop\\chat\\opencode\\project\\livestock-pigbench-inference\\third_party\\PigBench\\detection\\data\\pretrained_weights\\yolov8_pigs\\yolov8_s.pth",
+  "device": "cpu",
+  "conf_threshold": 0.4,
+  "count": 14,
+  "elapsed_ms": 1225.21,
+  "wall_ms": 1225.63,
+  "detections": [
+    {
+      "bbox": [
+        461.25,
+        299.07,
+        647.73,
+        421.48
+      ],
+      "score": 0.924
+    },
+    {
+      "bbox": [
+        721.06,
+        26.35,
+        853.41,
+        156.56
+      ],
+      "score": 0.9091
+    },
+    {
+      "bbox": [
+        771.87,
+        465.48,
+        954.21,
+        543.03
+      ],
+      "score": 0.9057
+    },
+    {
+      "bbox": [
+        375.05,
+        326.47,
+        517.13,
+        524.42
+      ],
+      "score": 0.9045
+    },
+    {
+      "bbox": [
+        803.54,
+        85.4,
+        879.8,
+        258.77
+      ],
+      "score": 0.8955
+    },
+    {
+      "bbox": [
+        775.26,
+        341.85,
+        918.19,
+        503.67
+      ],
+      "score": 0.8939
+    },
+    {
+      "bbox": [
+        1000.51,
+        548.27,
+        1166.69,
+        618.37
+      ],
+      "score": 0.8937
+    },
+    {
+      "bbox": [
+        1011.39,
+        605.32,
+        1184.47,
+        674.19
+      ],
+      "score": 0.8896
+    },
+    {
+      "bbox": [
+        687.34,
+        321.41,
+        915.75,
+        425.56
+      ],
+      "score": 0.8865
+    },
+    {
+      "bbox": [
+        875.32,
+        246.44,
+        1063.51,
+        352.9
+      ],
+      "score": 0.8661
+    },
+    {
+      "bbox": [
+        1003.31,
+        655.29,
+        1180.01,
+        714.13
+      ],
+      "score": 0.8002
+    },
+    {
+      "bbox": [
+        1026.21,
+        246.97,
+        1137.49,
+        309.53
+      ],
+      "score": 0.7607
+    },
+    {
+      "bbox": [
+        997.86,
+        701.93,
+        1166.55,
+        762.67
+      ],
+      "score": 0.58
+    },
+    {
+      "bbox": [
+        1043.87,
+        705.92,
+        1166.31,
+        763.3
+      ],
+      "score": 0.4918
+    }
+  ],
+  "visualization": "D:\\Desktop\\chat\\opencode\\project\\livestock-pigbench-inference\\results\\video_frames\\pred\\frame_0000_src_vis.jpg"
+}

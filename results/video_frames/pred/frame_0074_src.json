@@ -1,0 +1,121 @@
+{
+  "image": "D:\\Desktop\\chat\\opencode\\project\\livestock-pigbench-inference\\results\\video_frames\\frame_0074_src.png",
+  "model": "yolov8_s",
+  "checkpoint": "D:\\Desktop\\chat\\opencode\\project\\livestock-pigbench-inference\\third_party\\PigBench\\detection\\data\\pretrained_weights\\yolov8_pigs\\yolov8_s.pth",
+  "device": "cpu",
+  "conf_threshold": 0.4,
+  "count": 12,
+  "elapsed_ms": 901.34,
+  "wall_ms": 901.82,
+  "detections": [
+    {
+      "bbox": [
+        682.04,
+        26.89,
+        859.55,
+        120.99
+      ],
+      "score": 0.9268
+    },
+    {
+      "bbox": [
+        521.35,
+        230.47,
+        742.24,
+        350.56
+      ],
+      "score": 0.9201
+    },
+    {
+      "bbox": [
+        843.04,
+        375.74,
+        978.82,
+        505.53
+      ],
+      "score": 0.9106
+    },
+    {
+      "bbox": [
+        995.51,
+        541.01,
+        1166.28,
+        604.81
+      ],
+      "score": 0.9037
+    },
+    {
+      "bbox": [
+        587.75,
+        324.14,
+        780.08,
+        556.63
+      ],
+      "score": 0.8993
+    },
+    {
+      "bbox": [
+        948.8,
+        643.24,
+        1178.55,
+        706.18
+      ],
+      "score": 0.8562
+    },
+    {
+      "bbox": [
+        973.45,
+        596.07,
+        1180.03,
+        666.33
+      ],
+      "score": 0.8498
+    },
+    {
+      "bbox": [
+        776.22,
+        372.2,
+        926.88,
+        528.93
+      ],
+      "score": 0.8035
+    },
+    {
+      "bbox": [
+        737.62,
+        336.36,
+        816.94,
+        535.92
+      ],
+      "score": 0.7645
+    },
+    {
+      "bbox": [
+        705.4,
+        312.55,
+        905.43,
+        408.38
+      ],
+      "score": 0.6288
+    },
+    {
+      "bbox": [
+        1016.87,
+        703.07,
+        1166.18,
+        765.77
+      ],
+      "score": 0.605
+    },
+    {
+      "bbox": [
+        900.14,
+        247.09,
+        1081.33,
+        376.71
+      ],
+      "score": 0.5947
+    }
+  ],
+  "visualization": "D:\\Desktop\\chat\\opencode\\project\\livestock-pigbench-inference\\results\\video_frames\\pred\\frame_0074_src_vis.jpg"
+}

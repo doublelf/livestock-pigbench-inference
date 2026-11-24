@@ -1,0 +1,17 @@
+D:\Desktop\chat\opencode\project\livestock-pigbench-inference\.venv\lib\site-packages\torch\functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ..\aten\src\ATen\native\TensorShape.cpp:3484.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+[video] 输入: D:\Desktop\chat\opencode\project\livestock-pigbench-inference\inputs\pigtrack0001.mp4
+[video] 规格: 1280x800 | fps=9.999 | 元数据帧数=149 | 时长约 14.90 s
+[video] stride=2 | conf=0.4 | device=cpu
+[video] 输出视频: D:\Desktop\chat\opencode\project\livestock-pigbench-inference\outputs\stride_test\pigtrack0001_det.mp4
+[PigDetector] config     : D:\Desktop\chat\opencode\project\livestock-pigbench-inference\third_party\PigBench\detection\configs\yolov8\yolov8_s.py
+[PigDetector] checkpoint : D:\Desktop\chat\opencode\project\livestock-pigbench-inference\third_party\PigBench\detection\data\pretrained_weights\yolov8_pigs\yolov8_s.pth
+[PigDetector] device     : cpu
+Loads checkpoint by local backend from path: D:\Desktop\chat\opencode\project\livestock-pigbench-inference\third_party\PigBench\detection\data\pretrained_weights\yolov8_pigs\yolov8_s.pth
+[PigDetector] 权重加载耗时: 3.24 s
+[video] 已处理 100 帧 | 当前帧检出 跳过（stride） | 已用 43.8 s
+[video] 完成：总帧数 149 | 检测帧 75 | 平均计数 12.89（min 11, max 14）
+[video] 耗时 70.96 s | 平均每检测帧 946.10 ms（模型推理均值 908.68 ms）
+[video] 输出校验：opened=True frames=149（预期 149） fps=10.000 size=1280x800 first_frame_readable=True
+[video] 计数 CSV: D:\Desktop\chat\opencode\project\livestock-pigbench-inference\results\video_counts_stride2.csv
+[video] 汇总 JSON: D:\Desktop\chat\opencode\project\livestock-pigbench-inference\results\video_summary_stride2.json

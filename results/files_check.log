@@ -1,0 +1,3 @@
+Loads checkpoint by local backend from path: D:\Desktop\chat\opencode\project\livestock-pigbench-inference\third_party\PigBench\detection\data\pretrained_weights\yolov8_pigs\yolov8_s.pth
+[check] size=44.77 MB | init=True | params=11135971 | cls_out=1
+[check] 报告: D:\Desktop\chat\opencode\project\livestock-pigbench-inference\results\files_check.md

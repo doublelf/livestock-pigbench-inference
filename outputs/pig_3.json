@@ -1,0 +1,93 @@
+{
+  "image": "D:\\Desktop\\chat\\opencode\\project\\livestock-pigbench-inference\\inputs\\pig_3.png",
+  "model": "yolov8_s",
+  "checkpoint": "D:\\Desktop\\chat\\opencode\\project\\livestock-pigbench-inference\\third_party\\PigBench\\detection\\data\\pretrained_weights\\yolov8_pigs\\yolov8_s.pth",
+  "device": "cpu",
+  "conf_threshold": 0.4,
+  "count": 9,
+  "elapsed_ms": 318.93,
+  "detections": [
+    {
+      "bbox": [
+        83.87,
+        191.67,
+        385.53,
+        658.57
+      ],
+      "score": 0.9091
+    },
+    {
+      "bbox": [
+        841.96,
+        1.19,
+        1023.81,
+        277.96
+      ],
+      "score": 0.8996
+    },
+    {
+      "bbox": [
+        220.45,
+        0.45,
+        485.68,
+        117.2
+      ],
+      "score": 0.8958
+    },
+    {
+      "bbox": [
+        774.11,
+        362.56,
+        1024.0,
+        570.25
+      ],
+      "score": 0.871
+    },
+    {
+      "bbox": [
+        0.0,
+        77.27,
+        400.36,
+        574.84
+      ],
+      "score": 0.8563
+    },
+    {
+      "bbox": [
+        311.96,
+        171.55,
+        542.22,
+        662.5
+      ],
+      "score": 0.8289
+    },
+    {
+      "bbox": [
+        668.05,
+        12.79,
+        852.17,
+        493.37
+      ],
+      "score": 0.8022
+    },
+    {
+      "bbox": [
+        530.72,
+        110.48,
+        818.52,
+        602.11
+      ],
+      "score": 0.6784
+    },
+    {
+      "bbox": [
+        0.05,
+        154.88,
+        170.86,
+        323.21
+      ],
+      "score": 0.5821
+    }
+  ],
+  "visualization": "D:\\Desktop\\chat\\opencode\\project\\livestock-pigbench-inference\\outputs\\pig_3_vis.jpg"
+}

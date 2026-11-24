@@ -1,0 +1,11 @@
+D:\Desktop\chat\opencode\project\livestock-pigbench-inference\.venv\lib\site-packages\mmdet\apis\inference.py:70: UserWarning: checkpoint is None, use COCO classes by default.
+  warnings.warn('checkpoint is None, use COCO classes by default.')
+D:\Desktop\chat\opencode\project\livestock-pigbench-inference\.venv\lib\site-packages\torch\functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ..\aten\src\ATen\native\TensorShape.cpp:3484.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+[smoke] config: D:\Desktop\chat\opencode\project\livestock-pigbench-inference\third_party\PigBench\detection\configs\yolov8\yolov8_s.py
+[smoke] image : D:\Desktop\chat\opencode\project\livestock-pigbench-inference\third_party\PigBench\detection\data\example_images\demo_image1.jpg
+[smoke] device: cpu | checkpoint: None（随机初始化，仅验证流程）
+[smoke] 模型构建成功，参数量 11.14 M，耗时 3.32 s
+[smoke] 推理完成：300 个候选框（随机权重，数量无意义），耗时 0.93 s
+[smoke] 图片尺寸: 1280x800
+[smoke] PASS：环境、config、推理 API 均可用
